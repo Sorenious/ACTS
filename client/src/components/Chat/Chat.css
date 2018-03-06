@@ -3,7 +3,7 @@
 }
 
 .Chat{
-  height: calc(100vh - 250px);
+  height: calc(100vh - 50px);
 }
 
 header {
@@ -34,7 +34,7 @@ button{
   display:  grid;
   grid-template-columns: 1fr 2fr;
   /* padding: 0 30px; */
-  height: calc(100vh - 275px);
+  height: calc(100vh - 175px);
 }
 
 .login-all{
@@ -55,7 +55,7 @@ button{
 }
 
 .users-box{
-  background-color: #999;
+  background-color: #232F3E;
   color: white;
   font-weight: bold;
 }
@@ -84,7 +84,7 @@ button{
 .message-area{
   display: flex;
   flex-direction: column-reverse;
-  border: 1px solid grey;
+  border: 2px solid #FE9900;
   margin-bottom: 10px;
   padding: 5px;
   background-color: #EEE; 
@@ -104,4 +104,11 @@ button{
 .input-box{
   display: grid;
   grid-template-columns: 1fr auto;
+}
+
+.submit-btn{
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f7dfa5),color-stop(100%,#f0c14b));
+  background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  color: #232F3E;
 }
